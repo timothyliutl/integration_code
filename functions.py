@@ -1,14 +1,15 @@
 from numba import jit
 from numba import cuda
 import numpy as np
+import math
 
 @cuda.jit(device=True)
 def exp_dist(x):
-    return np.exp(-x**2/2)/np.sqrt(2*np.pi)
+    return math.exp(-x**2/2)/math.sqrt(2*np.pi)
 
 @cuda.jit(device=True)
 def dist_y(y):
-    return np.exp(-y**2/2)/np.sqrt(2*np.pi)
+    return math.exp(-y**2/2)/math.sqrt(2*np.pi)
 
 @cuda.jit(device=True)
 def f_x_given_y_z(x,y,z):
