@@ -12,11 +12,11 @@ def convolution(x_val, t_val, step_size):
         return math.exp(-y**2/2)/math.sqrt(2*np.pi)
     def dist_w1(x):
         return math.exp(-x**2/2)/math.sqrt(2*np.pi)
-    for x in x_val:
+    for x_index in len(x_val):
         sum_val = 0
         for t in t_val:
-            sum_val += dist_y(x-t)*dist_w1(t)*step_size
-        return_array[x] = sum_val
+            sum_val += dist_y(x_val[x_index]-t)*dist_w1(t)*step_size
+        return_array[x_index] = sum_val
 
 @cuda.jit(device=True)
 def exp_dist(x):
