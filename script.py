@@ -1,5 +1,5 @@
 import numpy as np
-from functions import inner_int_matrix, convolution
+from functions import inner_int_matrix, convolution, convolution2
 import math
 
 x_val = np.arange(-5,5,0.01)
@@ -18,7 +18,9 @@ blockspergrid = (blockspergrid_x, blockspergrid_y, blockspergrid_z)
 convolution_x_val = np.arange(-10,10,0.01)
 t_val = np.arange(-5,5,0.01)
 convolution_array = convolution(convolution_x_val, t_val, 0.01)
-print(convolution_array[0:10])
 
-inner_int_matrix[blockspergrid, threadsperblock](x_val, y_val, z_val, result_matrix)
-print(result_matrix[0:10,1,1])
+inner_int_matrix[blockspergrid, threadsperblock](x_val, y_val, z_val, convolution_array, result_matrix)
+
+convolution_array2 = convolution2(x_val, t_val, convolution_array, 0.01)
+#np.savetxt("foo.csv", convolution_array2, delimiter=",")
+print(convolution_array2[0:10])
