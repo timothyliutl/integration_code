@@ -3,6 +3,21 @@ from numba import cuda
 import numpy as np
 import math
 
+
+@jit(nopython=True)
+def convolution(x_val, t_val, step_size):
+    return_array = np.zeros(len(x_val))
+
+    def dist_y(y):
+        return math.exp(-y**2/2)/math.sqrt(2*np.pi)
+    def dist_w1(x):
+        return math.exp(-x**2/2)/math.sqrt(2*np.pi)
+    for x in x_val:
+        sum_val = 0
+        for t in t_val:
+            sum_val += dist_y(x-t)*dist_w1(t)*step_size
+        return_array[x] = sum_val
+
 @cuda.jit(device=True)
 def exp_dist(x):
     return math.exp(-x**2/2)/math.sqrt(2*np.pi)
