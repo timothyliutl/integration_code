@@ -1,5 +1,5 @@
 import numpy as np
-from functions import inner_int_matrix, convolution, convolution2
+from functions import inner_int_matrix, convolution, convolution2, convolution_w1_w2, inner_int_division_matrix
 import math
 
 x_val = np.arange(-5,5,0.01)
@@ -17,10 +17,26 @@ blockspergrid = (blockspergrid_x, blockspergrid_y, blockspergrid_z)
 
 convolution_x_val = np.arange(-10,10,0.01)
 t_val = np.arange(-5,5,0.01)
-convolution_array = convolution(convolution_x_val, t_val, 0.01)
-
-inner_int_matrix[blockspergrid, threadsperblock](x_val, y_val, z_val, convolution_array, result_matrix)
-
-convolution_array2 = convolution2(x_val, t_val, convolution_array, 0.01)
+convolution_array_yw1 = convolution(convolution_x_val, t_val, 0.01)
+convolution_array_yw1w2 = convolution2(convolution_x_val, t_val, convolution_array_yw1, 0.01)
 #np.savetxt("foo.csv", convolution_array2, delimiter=",")
-print(convolution_array2[0:10])
+convolution_array_w1w2 = convolution_w1_w2(convolution_x_val, t_val, 0.01)
+alpha=0.5
+inner_int_matrix[blockspergrid, threadsperblock](x_val, y_val, z_val,alpha, convolution_array_w1w2, convolution_array_yw1w2, convolution_array_yw1, result_matrix)
+
+print(result_matrix[0,0:5,0:5])
+result_matrix = np.sum(result_matrix, axis=0)
+np.savetxt("foo.csv", result_matrix, delimiter=",")
+result_matrix = result_matrix*0.01
+print(result_matrix[0:5,0:5])
+def myfunc(x):
+    return math.log10(x)
+vfunc = np.vectorize(myfunc)
+result_matrix = vfunc(result_matrix)
+print(result_matrix[0:5,0:5])
+
+final_result = np.zeros(result_matrix.shape)
+inner_int_division_matrix[blockspergrid, threadsperblock](y_val, z_val, result_matrix, convolution_array_w1w2, final_result)
+final_result = final_result * ((0.01)**2)
+print(final_result[0:5,0:5])
+print(np.sum(final_result)/(alpha-1))
