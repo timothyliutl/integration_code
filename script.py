@@ -34,7 +34,7 @@ convolution_array_w1w2 = convolution_w1_w2(convolution_x_val, t_val, 0.005)
 
 
 
-for alpha in np.arange(0.8,1,0.01):
+for alpha in np.arange(0.9,1,0.01):
     sum_val = 0
     for i in range(8):
         for j in range(8):
@@ -60,7 +60,7 @@ for alpha in np.arange(0.8,1,0.01):
             print('calculating for alpha, j, i = ', alpha, j, i)
             inner_int_matrix[blockspergrid, threadsperblock](x_val, y_val, z_val, 0.005, convolution_x_val[0] ,alpha, convolution_array_w1w2, convolution_array_yw1w2, convolution_array_yw1, result_matrix)
             #np.savetxt("fx_yz.csv", result_matrix[:,500,500], delimiter=",")
-            result_matrix = np.sum((result_matrix*(0.005)), axis=1)
+            result_matrix = np.sum((result_matrix*(0.005)), axis=0)
             print(result_matrix[300:350, 300:350])
 
             
