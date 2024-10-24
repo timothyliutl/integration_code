@@ -35,7 +35,7 @@ convolution_array_w1w2 = convolution_w1_w2(convolution_x_val, t_val, 0.005)
 
 
 
-for alpha in np.arange(0.01,0.99,0.01):
+for alpha in np.arange(0.01,1,0.01):
     sum_val = 0
     for i in range(8):
         for j in range(8):
@@ -68,6 +68,6 @@ for alpha in np.arange(0.01,0.99,0.01):
 
             print(final_result/(1-alpha)*alpha)
             sum_val = sum_val + np.sum(final_result)
-    new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val/(1-alpha)*alpha]})
+    new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val/((1-alpha)*alpha)]})
     df = pd.concat([df, new_row])
     df.to_csv('data_modified_ajs.csv')

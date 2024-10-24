@@ -110,11 +110,11 @@ def inner_int_division_matrix(y_array, z_array, step_size, lower_bound, inner_in
 def inner_int_matrix_ajs(x_array, y_array, z_array, step_size, lower_bound, alpha, convolution_array_w1w2, convolution_array_w1w2y, convolution_array_w1y, return_matrix):
     x_pos, y_pos, z_pos = cuda.grid(3)
     if x_pos < len(x_array) and y_pos < len(y_array) and z_pos < len(z_array):
-        f_y_given_z_val = f_y_given_z(y_array[y_pos], convolution_array_w1w2[int((z_array[z_pos] - y_array[y_pos])/(step_size))], convolution_array_w1w2y[int((z_array[z_pos] - lower_bound)/step_size)])
-        f_x_given_z_val = f_x_given_z(x_array[x_pos], z_array[z_pos], convolution_array_w1y[int((x_array[x_pos]- lower_bound)/step_size)], convolution_array_w1w2y[int((z_array[z_pos]-lower_bound)/step_size)])**(1-alpha)
+        f_y_given_z_val = f_y_given_z(y_array[y_pos], convolution_array_w1w2[int((z_array[z_pos] - y_array[y_pos] - lower_bound)/(step_size))], convolution_array_w1w2y[int((z_array[z_pos] - lower_bound)/step_size)])
+        f_x_given_z_val = f_x_given_z(x_array[x_pos], z_array[z_pos], convolution_array_w1y[int((x_array[x_pos]- lower_bound)/step_size)], convolution_array_w1w2y[int((z_array[z_pos]-lower_bound)/step_size)])
 
         f_yx_given_z_val = dist_y(y_array[y_pos])*dist_w1(x_array[x_pos] - y_array[y_pos]) * dist_w2(z_array[z_pos] - x_array[x_pos])/(convolution_array_w1w2y[int((z_array[z_pos] - lower_bound)/step_size)])
         
         item1 = alpha*(f_yx_given_z_val*math.log(f_yx_given_z_val/(alpha*f_yx_given_z_val + (1-alpha)*f_y_given_z_val*f_x_given_z_val)))
         item2 = (1-alpha)*f_y_given_z_val*f_x_given_z_val*math.log((f_y_given_z_val*f_x_given_z_val)/(alpha*f_yx_given_z_val + (1-alpha)*f_y_given_z_val*f_x_given_z_val))
-        return_matrix[x_pos, y_pos, z_pos] = (item1 + item2)*convolution_array_w1w2y[int((z_array[z_pos] - lower_bound)/step_size)]
+        return_matrix[x_pos, y_pos, z_pos] =  (item1 + item2)*convolution_array_w1w2y[int((z_array[z_pos] - lower_bound)/step_size)]
