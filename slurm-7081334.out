@@ -1,0 +1,1194 @@
+
+Lmod is automatically replacing "gcc/12.3" with "intel/2020.1.217".
+
+
+Activating Modules:
+  1) CCconfig            3) flexiblascore/.3.0.4     5) libfabric/1.10.1
+  2) flexiblas/3.0.4     4) gentoo/2020              6) ucx/1.8.0
+
+The following have been reloaded with a version change:
+  1) StdEnv/2016.4 => StdEnv/2020           5) java/1.8.0_121 => java/13.0.2
+  2) gcccore/.5.4.0 => gcccore/.9.3.0       6) mii/1.1.1 => mii/1.1.2
+  3) imkl/11.3.4.258 => imkl/2020.1.217     7) openmpi/2.1.1 => openmpi/4.0.3
+  4) intel/2016.4 => intel/2020.1.217       8) r/3.5.0 => r/4.3.1
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) libfabric/1.10.1     2) openmpi/4.0.3     3) ucx/1.8.0
+
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py:488: NumbaPerformanceWarning: Grid size 64 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/dispatcher.py:488: NumbaPerformanceWarning: Grid size 1 will likely result in GPU under-utilization due to low occupancy.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+/global/home/hpc5435/.local/lib/python3.8/site-packages/numba/cuda/cudadrv/devicearray.py:885: NumbaPerformanceWarning: Host array used in CUDA kernel will incur copy overhead to/from device.
+  warn(NumbaPerformanceWarning(msg))
+calculating for alpha, j, i =  0.9 0 0
+7.959376807529917e-10
+calculating for alpha, j, i =  0.9 1 0
+8.000448980399896e-10
+calculating for alpha, j, i =  0.9 2 0
+1.424768302312418e-10
+calculating for alpha, j, i =  0.9 3 0
+4.192831760964185e-12
+calculating for alpha, j, i =  0.9 4 0
+1.888164277334792e-14
+calculating for alpha, j, i =  0.9 5 0
+1.2373720693908108e-17
+calculating for alpha, j, i =  0.9 6 0
+1.1509665467860605e-21
+calculating for alpha, j, i =  0.9 7 0
+1.498717215074367e-26
+calculating for alpha, j, i =  0.9 0 1
+2.4286509258497353e-06
+calculating for alpha, j, i =  0.9 1 1
+1.5289401046805698e-05
+calculating for alpha, j, i =  0.9 2 1
+1.6590128294054578e-05
+calculating for alpha, j, i =  0.9 3 1
+3.1440632305747003e-06
+calculating for alpha, j, i =  0.9 4 1
+9.723794242584257e-08
+calculating for alpha, j, i =  0.9 5 1
+4.539493391019249e-10
+calculating for alpha, j, i =  0.9 6 1
+3.0534302686854417e-13
+calculating for alpha, j, i =  0.9 7 1
+2.886716300016316e-17
+calculating for alpha, j, i =  0.9 0 2
+1.6197643963531416e-05
+calculating for alpha, j, i =  0.9 1 2
+0.0006089508364527829
+calculating for alpha, j, i =  0.9 2 2
+0.0042151618135347155
+calculating for alpha, j, i =  0.9 3 2
+0.005112583859018909
+calculating for alpha, j, i =  0.9 4 2
+0.0010732000062366428
+calculating for alpha, j, i =  0.9 5 2
+3.6184226038766654e-05
+calculating for alpha, j, i =  0.9 6 2
+1.8146388753842078e-07
+calculating for alpha, j, i =  0.9 7 2
+1.2894953855027015e-10
+calculating for alpha, j, i =  0.9 0 3
+1.6601380512753345e-05
+calculating for alpha, j, i =  0.9 1 3
+0.0005831592480734441
+calculating for alpha, j, i =  0.9 2 3
+0.006198014985843762
+calculating for alpha, j, i =  0.9 3 3
+0.02241912784913427
+calculating for alpha, j, i =  0.9 4 3
+0.023314023823338133
+calculating for alpha, j, i =  0.9 5 3
+0.005206860673734341
+calculating for alpha, j, i =  0.9 6 3
+0.00019790129884430634
+calculating for alpha, j, i =  0.9 7 3
+1.1146387601956954e-06
+calculating for alpha, j, i =  0.9 0 4
+1.1249845659684378e-06
+calculating for alpha, j, i =  0.9 1 4
+0.00019906853628316948
+calculating for alpha, j, i =  0.9 2 4
+0.005216037834364754
+calculating for alpha, j, i =  0.9 3 4
+0.023263122767066116
+calculating for alpha, j, i =  0.9 4 4
+0.022353665653105054
+calculating for alpha, j, i =  0.9 5 4
+0.0061850779062144635
+calculating for alpha, j, i =  0.9 6 4
+0.0005837723077430476
+calculating for alpha, j, i =  0.9 7 4
+1.667122198918518e-05
+calculating for alpha, j, i =  0.9 0 5
+1.3095419637274575e-10
+calculating for alpha, j, i =  0.9 1 5
+1.8377182923790535e-07
+calculating for alpha, j, i =  0.9 2 5
+3.652990768596043e-05
+calculating for alpha, j, i =  0.9 3 5
+0.0010791213075539683
+calculating for alpha, j, i =  0.9 4 5
+0.005140908019436195
+calculating for alpha, j, i =  0.9 5 5
+0.00420671274430455
+calculating for alpha, j, i =  0.9 6 5
+0.0006052688398143391
+calculating for alpha, j, i =  0.9 7 5
+1.606840433454961e-05
+calculating for alpha, j, i =  0.9 0 6
+2.9498115682775284e-17
+calculating for alpha, j, i =  0.9 1 6
+3.11213949369845e-13
+calculating for alpha, j, i =  0.9 2 6
+4.613611208859039e-10
+calculating for alpha, j, i =  0.9 3 6
+9.84736645757872e-08
+calculating for alpha, j, i =  0.9 4 6
+3.1951701820549923e-06
+calculating for alpha, j, i =  0.9 5 6
+1.668639043575552e-05
+calculating for alpha, j, i =  0.9 6 6
+1.5318416829179742e-05
+calculating for alpha, j, i =  0.9 7 6
+2.4230560943572276e-06
+calculating for alpha, j, i =  0.9 0 7
+1.540994876106627e-26
+calculating for alpha, j, i =  0.9 1 7
+1.1805666740687936e-21
+calculating for alpha, j, i =  0.9 2 7
+1.265845534097805e-17
+calculating for alpha, j, i =  0.9 3 7
+1.9254931980460122e-14
+calculating for alpha, j, i =  0.9 4 7
+4.305368762236643e-12
+calculating for alpha, j, i =  0.9 5 7
+1.4434944062406363e-10
+calculating for alpha, j, i =  0.9 6 7
+8.076977636791341e-10
+calculating for alpha, j, i =  0.9 7 7
+8.007104309329454e-10
+calculating for alpha, j, i =  0.91 0 0
+8.278447649449218e-10
+calculating for alpha, j, i =  0.91 1 0
+8.332120764675018e-10
+calculating for alpha, j, i =  0.91 2 0
+1.4854430975411423e-10
+calculating for alpha, j, i =  0.91 3 0
+4.375200222932774e-12
+calculating for alpha, j, i =  0.91 4 0
+1.9715804128744414e-14
+calculating for alpha, j, i =  0.91 5 0
+1.2926098060244969e-17
+calculating for alpha, j, i =  0.91 6 0
+1.2026900333313268e-21
+calculating for alpha, j, i =  0.91 7 0
+1.566331697847049e-26
+calculating for alpha, j, i =  0.91 0 1
+2.5102269610815036e-06
+calculating for alpha, j, i =  0.91 1 1
+1.5835447110341514e-05
+calculating for alpha, j, i =  0.91 2 1
+1.7215104776776346e-05
+calculating for alpha, j, i =  0.91 3 1
+3.2681191589691738e-06
+calculating for alpha, j, i =  0.91 4 1
+1.0122758877419178e-07
+calculating for alpha, j, i =  0.91 5 1
+4.731531953806395e-10
+calculating for alpha, j, i =  0.91 6 1
+3.1856019962999563e-13
+calculating for alpha, j, i =  0.91 7 1
+3.0137297476629017e-17
+calculating for alpha, j, i =  0.91 0 2
+1.66637274614943e-05
+calculating for alpha, j, i =  0.91 1 2
+0.00062707693767186
+calculating for alpha, j, i =  0.91 2 2
+0.004346116272394621
+calculating for alpha, j, i =  0.91 3 2
+0.005280420506245627
+calculating for alpha, j, i =  0.91 4 2
+0.0011106451235894312
+calculating for alpha, j, i =  0.91 5 2
+3.752393697371539e-05
+calculating for alpha, j, i =  0.91 6 2
+1.8854480623713474e-07
+calculating for alpha, j, i =  0.91 7 2
+1.34200764913266e-10
+calculating for alpha, j, i =  0.91 0 3
+1.708575548206688e-05
+calculating for alpha, j, i =  0.91 1 3
+0.0005995182054962089
+calculating for alpha, j, i =  0.91 2 3
+0.006368042181681667
+calculating for alpha, j, i =  0.91 3 3
+0.023056994388653825
+calculating for alpha, j, i =  0.91 4 3
+0.02399909421738465
+calculating for alpha, j, i =  0.91 5 3
+0.005365164739206498
+calculating for alpha, j, i =  0.91 6 3
+0.0002042536959059327
+calculating for alpha, j, i =  0.91 7 3
+1.152890424886044e-06
+calculating for alpha, j, i =  0.91 0 4
+1.1637531876016586e-06
+calculating for alpha, j, i =  0.91 1 4
+0.00020547798633130631
+calculating for alpha, j, i =  0.91 2 4
+0.005374818606127628
+calculating for alpha, j, i =  0.91 3 4
+0.02394610404015471
+calculating for alpha, j, i =  0.91 4 4
+0.02298820803163265
+calculating for alpha, j, i =  0.91 5 4
+0.006354122732150274
+calculating for alpha, j, i =  0.91 6 4
+0.000600085540613063
+calculating for alpha, j, i =  0.91 7 4
+1.715592185636906e-05
+calculating for alpha, j, i =  0.91 0 5
+1.36296000450927e-10
+calculating for alpha, j, i =  0.91 1 5
+1.909485913325981e-07
+calculating for alpha, j, i =  0.91 2 5
+3.788197046694006e-05
+calculating for alpha, j, i =  0.91 3 5
+0.0011166972423445802
+calculating for alpha, j, i =  0.91 4 5
+0.005309337998534424
+calculating for alpha, j, i =  0.91 5 5
+0.004336659478617039
+calculating for alpha, j, i =  0.91 6 5
+0.0006231406989724176
+calculating for alpha, j, i =  0.91 7 5
+1.652592144304575e-05
+calculating for alpha, j, i =  0.91 0 6
+3.079641754176599e-17
+calculating for alpha, j, i =  0.91 1 6
+3.24679104566452e-13
+calculating for alpha, j, i =  0.91 2 6
+4.808514669665409e-10
+calculating for alpha, j, i =  0.91 3 6
+1.0250319225130708e-07
+calculating for alpha, j, i =  0.91 4 6
+3.3210434514220255e-06
+calculating for alpha, j, i =  0.91 5 6
+1.7311386765972545e-05
+calculating for alpha, j, i =  0.91 6 6
+1.5861236900581132e-05
+calculating for alpha, j, i =  0.91 7 6
+2.5036095991823144e-06
+calculating for alpha, j, i =  0.91 0 7
+1.6104680126451026e-26
+calculating for alpha, j, i =  0.91 1 7
+1.2335471987487786e-21
+calculating for alpha, j, i =  0.91 2 7
+1.3222329615643865e-17
+calculating for alpha, j, i =  0.91 3 7
+2.010292670369848e-14
+calculating for alpha, j, i =  0.91 4 7
+4.4924065931843576e-12
+calculating for alpha, j, i =  0.91 5 7
+1.5046307046332818e-10
+calculating for alpha, j, i =  0.91 6 7
+8.409491353171568e-10
+calculating for alpha, j, i =  0.91 7 7
+8.325303158210853e-10
+calculating for alpha, j, i =  0.92 0 0
+8.623251566858049e-10
+calculating for alpha, j, i =  0.92 1 0
+8.692381692693801e-10
+calculating for alpha, j, i =  0.92 2 0
+1.5516205023139002e-10
+calculating for alpha, j, i =  0.92 3 0
+4.5747600899256105e-12
+calculating for alpha, j, i =  0.92 4 0
+2.0630838428361762e-14
+calculating for alpha, j, i =  0.92 5 0
+1.3533063679110735e-17
+calculating for alpha, j, i =  0.92 6 0
+1.2595893650045023e-21
+calculating for alpha, j, i =  0.92 7 0
+1.6407647006728276e-26
+calculating for alpha, j, i =  0.92 0 1
+2.5961179748542956e-06
+calculating for alpha, j, i =  0.92 1 1
+1.641554606971854e-05
+calculating for alpha, j, i =  0.92 2 1
+1.7884349645940114e-05
+calculating for alpha, j, i =  0.92 3 1
+3.4018909526819223e-06
+calculating for alpha, j, i =  0.92 4 1
+1.0555529900398614e-07
+calculating for alpha, j, i =  0.92 5 1
+4.940830181224015e-10
+calculating for alpha, j, i =  0.92 6 1
+3.330169943802682e-13
+calculating for alpha, j, i =  0.92 7 1
+3.153015500750475e-17
+calculating for alpha, j, i =  0.92 0 2
+1.7144398549765893e-05
+calculating for alpha, j, i =  0.92 1 2
+0.0006458503226623579
+calculating for alpha, j, i =  0.92 2 2
+0.004482523125570063
+calculating for alpha, j, i =  0.92 3 2
+0.00545660445328225
+calculating for alpha, j, i =  0.92 4 2
+0.001150300952237286
+calculating for alpha, j, i =  0.92 5 2
+3.8955329765903e-05
+calculating for alpha, j, i =  0.92 6 2
+1.9617034555782826e-07
+calculating for alpha, j, i =  0.92 7 2
+1.3989267523658916e-10
+calculating for alpha, j, i =  0.92 0 3
+1.7586245559723184e-05
+calculating for alpha, j, i =  0.92 1 3
+0.0006163349089204838
+calculating for alpha, j, i =  0.92 2 3
+0.0065423144005667564
+calculating for alpha, j, i =  0.92 3 3
+0.023713913262980498
+calculating for alpha, j, i =  0.92 4 3
+0.024707624850619322
+calculating for alpha, j, i =  0.92 5 3
+0.005529648027308958
+calculating for alpha, j, i =  0.92 6 3
+0.00021090411758868915
+calculating for alpha, j, i =  0.92 7 3
+1.1933231423781424e-06
+calculating for alpha, j, i =  0.92 0 4
+1.2047416946800789e-06
+calculating for alpha, j, i =  0.92 1 4
+0.00021218913076403922
+calculating for alpha, j, i =  0.92 2 4
+0.005539802151623312
+calculating for alpha, j, i =  0.92 3 4
+0.024652424568837924
+calculating for alpha, j, i =  0.92 4 4
+0.02364160827551681
+calculating for alpha, j, i =  0.92 5 4
+0.006527354489918312
+calculating for alpha, j, i =  0.92 6 4
+0.0006168520584580207
+calculating for alpha, j, i =  0.92 7 4
+1.7656652321721435e-05
+calculating for alpha, j, i =  0.92 0 5
+1.420865787800327e-10
+calculating for alpha, j, i =  0.92 1 5
+1.9867756555688738e-07
+calculating for alpha, j, i =  0.92 2 5
+3.932649361235643e-05
+calculating for alpha, j, i =  0.92 3 5
+0.001156485561065082
+calculating for alpha, j, i =  0.92 4 5
+0.005486118318598058
+calculating for alpha, j, i =  0.92 5 5
+0.004471968729945113
+calculating for alpha, j, i =  0.92 6 5
+0.0006416422694841928
+calculating for alpha, j, i =  0.92 7 5
+1.6997487365215832e-05
+calculating for alpha, j, i =  0.92 0 6
+3.222017907224746e-17
+calculating for alpha, j, i =  0.92 1 6
+3.394066132080024e-13
+calculating for alpha, j, i =  0.92 2 6
+5.020915191894282e-10
+calculating for alpha, j, i =  0.92 3 6
+1.0687338108303181e-07
+calculating for alpha, j, i =  0.92 4 6
+3.4567589662098614e-06
+calculating for alpha, j, i =  0.92 5 6
+1.7980397745164083e-05
+calculating for alpha, j, i =  0.92 6 6
+1.6437613827925777e-05
+calculating for alpha, j, i =  0.92 7 6
+2.588368545581653e-06
+calculating for alpha, j, i =  0.92 0 7
+1.6869441273637108e-26
+calculating for alpha, j, i =  0.92 1 7
+1.291824878028554e-21
+calculating for alpha, j, i =  0.92 2 7
+1.3841852929215764e-17
+calculating for alpha, j, i =  0.92 3 7
+2.1032967270707763e-14
+calculating for alpha, j, i =  0.92 4 7
+4.697060033273076e-12
+calculating for alpha, j, i =  0.92 5 7
+1.5712892656058166e-10
+calculating for alpha, j, i =  0.92 6 7
+8.770510178217188e-10
+calculating for alpha, j, i =  0.92 7 7
+8.668975319951267e-10
+calculating for alpha, j, i =  0.93 0 0
+8.999325114480514e-10
+calculating for alpha, j, i =  0.93 1 0
+9.087685263916758e-10
+calculating for alpha, j, i =  0.93 2 0
+1.6245883753069553e-10
+calculating for alpha, j, i =  0.93 3 0
+4.795646687361514e-12
+calculating for alpha, j, i =  0.93 4 0
+2.1646591327693665e-14
+calculating for alpha, j, i =  0.93 5 0
+1.42082000593473e-17
+calculating for alpha, j, i =  0.93 6 0
+1.3229643325823357e-21
+calculating for alpha, j, i =  0.93 7 0
+1.723738641778387e-26
+calculating for alpha, j, i =  0.93 0 1
+2.686989628343808e-06
+calculating for alpha, j, i =  0.93 1 1
+1.7035728146233967e-05
+calculating for alpha, j, i =  0.93 2 1
+1.8606522045088345e-05
+calculating for alpha, j, i =  0.93 3 1
+3.54742686652707e-06
+calculating for alpha, j, i =  0.93 4 1
+1.1029652616610767e-07
+calculating for alpha, j, i =  0.93 5 1
+5.171406172460789e-10
+calculating for alpha, j, i =  0.93 6 1
+3.490108741388187e-13
+calculating for alpha, j, i =  0.93 7 1
+3.3075815457645527e-17
+calculating for alpha, j, i =  0.93 0 2
+1.764096088363063e-05
+calculating for alpha, j, i =  0.93 1 2
+0.0006653393977126928
+calculating for alpha, j, i =  0.93 2 2
+0.004625058570224986
+calculating for alpha, j, i =  0.93 3 2
+0.005642359158539375
+calculating for alpha, j, i =  0.93 4 2
+0.0011925426324081731
+calculating for alpha, j, i =  0.93 5 2
+4.049590116452725e-05
+calculating for alpha, j, i =  0.93 6 2
+2.044539989679236e-07
+calculating for alpha, j, i =  0.93 7 2
+1.4612311242334775e-10
+calculating for alpha, j, i =  0.93 0 3
+1.8104421174799492e-05
+calculating for alpha, j, i =  0.93 1 3
+0.0006336437498343569
+calculating for alpha, j, i =  0.93 2 3
+0.00672108503854585
+calculating for alpha, j, i =  0.93 3 3
+0.02439147745006278
+calculating for alpha, j, i =  0.93 4 3
+0.02544198725600756
+calculating for alpha, j, i =  0.93 5 3
+0.005701033167412929
+calculating for alpha, j, i =  0.93 6 3
+0.00021789416400213395
+calculating for alpha, j, i =  0.93 7 3
+1.2362977227830336e-06
+calculating for alpha, j, i =  0.93 0 4
+1.2483175252011474e-06
+calculating for alpha, j, i =  0.93 1 4
+0.0002192440838563839
+calculating for alpha, j, i =  0.93 2 4
+0.005711712867411988
+calculating for alpha, j, i =  0.93 3 4
+0.025384439318106643
+calculating for alpha, j, i =  0.93 4 4
+0.024315437133482682
+calculating for alpha, j, i =  0.93 5 4
+0.006705021599105164
+calculating for alpha, j, i =  0.93 6 4
+0.0006341058217392337
+calculating for alpha, j, i =  0.93 7 4
+1.81749719735262e-05
+calculating for alpha, j, i =  0.93 0 5
+1.484255724565345e-10
+calculating for alpha, j, i =  0.93 1 5
+2.0707380698579733e-07
+calculating for alpha, j, i =  0.93 2 5
+4.088111300012424e-05
+calculating for alpha, j, i =  0.93 3 5
+0.0011988612465405198
+calculating for alpha, j, i =  0.93 4 5
+0.005672470961224334
+calculating for alpha, j, i =  0.93 5 5
+0.004613303255783781
+calculating for alpha, j, i =  0.93 6 5
+0.0006608397658468485
+calculating for alpha, j, i =  0.93 7 5
+1.7484347221442337e-05
+calculating for alpha, j, i =  0.93 0 6
+3.3800149160553715e-17
+calculating for alpha, j, i =  0.93 1 6
+3.556993445887301e-13
+calculating for alpha, j, i =  0.93 2 6
+5.254884797545427e-10
+calculating for alpha, j, i =  0.93 3 6
+1.1166021607231303e-07
+calculating for alpha, j, i =  0.93 4 6
+3.6043904073136895e-06
+calculating for alpha, j, i =  0.93 5 6
+1.8702018684712077e-05
+calculating for alpha, j, i =  0.93 6 6
+1.7053474515641235e-05
+calculating for alpha, j, i =  0.93 7 6
+2.677979022928094e-06
+calculating for alpha, j, i =  0.93 0 7
+1.772192143200869e-26
+calculating for alpha, j, i =  0.93 1 7
+1.356729827874e-21
+calculating for alpha, j, i =  0.93 2 7
+1.4530869159853688e-17
+calculating for alpha, j, i =  0.93 3 7
+2.2065180745167125e-14
+calculating for alpha, j, i =  0.93 4 7
+4.923565490957289e-12
+calculating for alpha, j, i =  0.93 5 7
+1.644761531378488e-10
+calculating for alpha, j, i =  0.93 6 7
+9.166461091692318e-10
+calculating for alpha, j, i =  0.93 7 7
+9.043592032755675e-10
+calculating for alpha, j, i =  0.9400000000000001 0 0
+9.414445480773647e-10
+calculating for alpha, j, i =  0.9400000000000001 1 0
+9.527186761186664e-10
+calculating for alpha, j, i =  0.9400000000000001 2 0
+1.7061879114279547e-10
+calculating for alpha, j, i =  0.9400000000000001 3 0
+5.043807913491837e-12
+calculating for alpha, j, i =  0.9400000000000001 4 0
+2.2791736267191098e-14
+calculating for alpha, j, i =  0.9400000000000001 5 0
+1.497119460142042e-17
+calculating for alpha, j, i =  0.9400000000000001 6 0
+1.3947030558810727e-21
+calculating for alpha, j, i =  0.9400000000000001 7 0
+1.817759109214036e-26
+calculating for alpha, j, i =  0.9400000000000001 0 1
+2.7837239537945797e-06
+calculating for alpha, j, i =  0.9400000000000001 1 1
+1.770416308684621e-05
+calculating for alpha, j, i =  0.9400000000000001 2 1
+1.9393563394891092e-05
+calculating for alpha, j, i =  0.9400000000000001 3 1
+3.7075924099938176e-06
+calculating for alpha, j, i =  0.9400000000000001 4 1
+1.155580590540777e-07
+calculating for alpha, j, i =  0.9400000000000001 5 1
+5.42899789402772e-10
+calculating for alpha, j, i =  0.9400000000000001 6 1
+3.6696946237453683e-13
+calculating for alpha, j, i =  0.9400000000000001 7 1
+3.481772826871701e-17
+calculating for alpha, j, i =  0.9400000000000001 0 2
+1.815503310094692e-05
+calculating for alpha, j, i =  0.9400000000000001 1 2
+0.0006856307486060834
+calculating for alpha, j, i =  0.9400000000000001 2 2
+0.004774593289218107
+calculating for alpha, j, i =  0.9400000000000001 3 2
+0.00583929413259747
+calculating for alpha, j, i =  0.9400000000000001 4 2
+0.0012378747938845954
+calculating for alpha, j, i =  0.9400000000000001 5 2
+4.2169670203675444e-05
+calculating for alpha, j, i =  0.9400000000000001 6 2
+2.135541837245088e-07
+calculating for alpha, j, i =  0.9400000000000001 7 2
+1.5303040741541858e-10
+calculating for alpha, j, i =  0.9400000000000001 0 3
+1.8642252431952364e-05
+calculating for alpha, j, i =  0.9400000000000001 1 3
+0.0006514866223170872
+calculating for alpha, j, i =  0.9400000000000001 2 3
+0.006904654565324827
+calculating for alpha, j, i =  0.9400000000000001 3 3
+0.02509165072813134
+calculating for alpha, j, i =  0.9400000000000001 4 3
+0.026205169149775814
+calculating for alpha, j, i =  0.9400000000000001 5 3
+0.005880244847116327
+calculating for alpha, j, i =  0.9400000000000001 6 3
+0.00022527819346661985
+calculating for alpha, j, i =  0.9400000000000001 7 3
+1.2822975135771445e-06
+calculating for alpha, j, i =  0.9400000000000001 0 4
+1.294972898962865e-06
+calculating for alpha, j, i =  0.9400000000000001 1 4
+0.00022669786936507476
+calculating for alpha, j, i =  0.9400000000000001 2 4
+0.0058914774400207716
+calculating for alpha, j, i =  0.9400000000000001 3 4
+0.0261451146069221
+calculating for alpha, j, i =  0.9400000000000001 4 4
+0.025011630502540932
+calculating for alpha, j, i =  0.9400000000000001 5 4
+0.0068874185818475426
+calculating for alpha, j, i =  0.9400000000000001 6 4
+0.000651888203164375
+calculating for alpha, j, i =  0.9400000000000001 7 4
+1.8712835921690788e-05
+calculating for alpha, j, i =  0.9400000000000001 0 5
+1.554538524994217e-10
+calculating for alpha, j, i =  0.9400000000000001 1 5
+2.162979049008942e-07
+calculating for alpha, j, i =  0.9400000000000001 2 5
+4.257003631322761e-05
+calculating for alpha, j, i =  0.9400000000000001 3 5
+0.0012443286385504855
+calculating for alpha, j, i =  0.9400000000000001 4 5
+0.005870003200066806
+calculating for alpha, j, i =  0.9400000000000001 5 5
+0.004761516257172186
+calculating for alpha, j, i =  0.9400000000000001 6 5
+0.000680816989800252
+calculating for alpha, j, i =  0.9400000000000001 7 5
+1.7988046786162e-05
+calculating for alpha, j, i =  0.9400000000000001 0 6
+3.558074292158515e-17
+calculating for alpha, j, i =  0.9400000000000001 1 6
+3.7399267989652647e-13
+calculating for alpha, j, i =  0.9400000000000001 2 6
+5.516238109626369e-10
+calculating for alpha, j, i =  0.9400000000000001 3 6
+1.1697122765354135e-07
+calculating for alpha, j, i =  0.9400000000000001 4 6
+3.7668385674184075e-06
+calculating for alpha, j, i =  0.9400000000000001 5 6
+1.9488100331330172e-05
+calculating for alpha, j, i =  0.9400000000000001 6 6
+1.7716846327279547e-05
+calculating for alpha, j, i =  0.9400000000000001 7 6
+2.7732968192394814e-06
+calculating for alpha, j, i =  0.9400000000000001 0 7
+1.868785279701506e-26
+calculating for alpha, j, i =  0.9400000000000001 1 7
+1.4301941915885142e-21
+calculating for alpha, j, i =  0.9400000000000001 2 7
+1.5309444012382404e-17
+calculating for alpha, j, i =  0.9400000000000001 3 7
+2.3228645747362865e-14
+calculating for alpha, j, i =  0.9400000000000001 4 7
+5.178016003204482e-12
+calculating for alpha, j, i =  0.9400000000000001 5 7
+1.7268935956008808e-10
+calculating for alpha, j, i =  0.9400000000000001 6 7
+9.606460144721892e-10
+calculating for alpha, j, i =  0.9400000000000001 7 7
+9.456836841723187e-10
+calculating for alpha, j, i =  0.9500000000000001 0 0
+9.88010025526121e-10
+calculating for alpha, j, i =  0.9500000000000001 1 0
+1.0024567092185597e-09
+calculating for alpha, j, i =  0.9500000000000001 2 0
+1.7991955332157994e-10
+calculating for alpha, j, i =  0.9500000000000001 3 0
+5.328276881949416e-12
+calculating for alpha, j, i =  0.9500000000000001 4 0
+2.411005246739853e-14
+calculating for alpha, j, i =  0.9500000000000001 5 0
+1.5852220851103444e-17
+calculating for alpha, j, i =  0.9500000000000001 6 0
+1.4777068318555422e-21
+calculating for alpha, j, i =  0.9500000000000001 7 0
+1.9266826992084532e-26
+calculating for alpha, j, i =  0.9500000000000001 0 1
+2.8875381208854197e-06
+calculating for alpha, j, i =  0.9500000000000001 1 1
+1.843241911143777e-05
+calculating for alpha, j, i =  0.9500000000000001 2 1
+2.0262736013966862e-05
+calculating for alpha, j, i =  0.9500000000000001 3 1
+3.886600060481885e-06
+calculating for alpha, j, i =  0.9500000000000001 4 1
+1.2149903041747702e-07
+calculating for alpha, j, i =  0.9500000000000001 5 1
+5.722246289418252e-10
+calculating for alpha, j, i =  0.9500000000000001 6 1
+3.8754179606582093e-13
+calculating for alpha, j, i =  0.9500000000000001 7 1
+3.682221380732657e-17
+calculating for alpha, j, i =  0.9500000000000001 0 2
+1.86886880352525e-05
+calculating for alpha, j, i =  0.9500000000000001 1 2
+0.000706837790021948
+calculating for alpha, j, i =  0.9500000000000001 2 2
+0.004932290089401137
+calculating for alpha, j, i =  0.9500000000000001 3 2
+0.006049612177603688
+calculating for alpha, j, i =  0.9500000000000001 4 2
+0.0012870060791328438
+calculating for alpha, j, i =  0.9500000000000001 5 2
+4.40111730347117e-05
+calculating for alpha, j, i =  0.9500000000000001 6 2
+2.2370316214567064e-07
+calculating for alpha, j, i =  0.9500000000000001 7 2
+1.608204397819084e-10
+calculating for alpha, j, i =  0.9500000000000001 0 3
+1.920229306629495e-05
+calculating for alpha, j, i =  0.9500000000000001 1 3
+0.0006699159968948429
+calculating for alpha, j, i =  0.9500000000000001 2 3
+0.00709338752790246
+calculating for alpha, j, i =  0.9500000000000001 3 3
+0.025816927159702723
+calculating for alpha, j, i =  0.9500000000000001 4 3
+0.027001062659725586
+calculating for alpha, j, i =  0.9500000000000001 5 3
+0.006068509349271371
+calculating for alpha, j, i =  0.9500000000000001 6 3
+0.000233130024420949
+calculating for alpha, j, i =  0.9500000000000001 7 3
+1.3319979943548325e-06
+calculating for alpha, j, i =  0.9500000000000001 0 4
+1.3453956831293758e-06
+calculating for alpha, j, i =  0.9500000000000001 1 4
+0.00023462519914070365
+calculating for alpha, j, i =  0.9500000000000001 2 4
+0.006080324396802923
+calculating for alpha, j, i =  0.9500000000000001 3 4
+0.02693831389599997
+calculating for alpha, j, i =  0.9500000000000001 4 4
+0.025732646319362493
+calculating for alpha, j, i =  0.9500000000000001 5 4
+0.00707490269848693
+calculating for alpha, j, i =  0.9500000000000001 6 4
+0.0006702510250496354
+calculating for alpha, j, i =  0.9500000000000001 7 4
+1.9272778219538942e-05
+calculating for alpha, j, i =  0.9500000000000001 0 5
+1.633810749685542e-10
+calculating for alpha, j, i =  0.9500000000000001 1 5
+2.2658529283186046e-07
+calculating for alpha, j, i =  0.9500000000000001 2 5
+4.442806702381777e-05
+calculating for alpha, j, i =  0.9500000000000001 3 5
+0.0012935958453754082
+calculating for alpha, j, i =  0.9500000000000001 4 5
+0.006080914308894138
+calculating for alpha, j, i =  0.9500000000000001 5 5
+0.004917746920884236
+calculating for alpha, j, i =  0.9500000000000001 6 5
+0.0007016836933883152
+calculating for alpha, j, i =  0.9500000000000001 7 5
+1.8510565250202016e-05
+calculating for alpha, j, i =  0.9500000000000001 0 6
+3.762975343090482e-17
+calculating for alpha, j, i =  0.9500000000000001 1 6
+3.949474052505447e-13
+calculating for alpha, j, i =  0.9500000000000001 2 6
+5.813730897066784e-10
+calculating for alpha, j, i =  0.9500000000000001 3 6
+1.229666341641505e-07
+calculating for alpha, j, i =  0.9500000000000001 4 6
+3.948367298244239e-06
+calculating for alpha, j, i =  0.9500000000000001 5 6
+2.0355769486425923e-05
+calculating for alpha, j, i =  0.9500000000000001 6 6
+1.8439091920936392e-05
+calculating for alpha, j, i =  0.9500000000000001 7 6
+2.875502393907942e-06
+calculating for alpha, j, i =  0.9500000000000001 0 7
+1.980684197053604e-26
+calculating for alpha, j, i =  0.9500000000000001 1 7
+1.51518686157747e-21
+calculating for alpha, j, i =  0.9500000000000001 2 7
+1.620832984568019e-17
+calculating for alpha, j, i =  0.9500000000000001 3 7
+2.456775759604896e-14
+calculating for alpha, j, i =  0.9500000000000001 4 7
+5.46966465860139e-12
+calculating for alpha, j, i =  0.9500000000000001 5 7
+1.8204688708619923e-10
+calculating for alpha, j, i =  0.9500000000000001 6 7
+1.0104126810968764e-09
+calculating for alpha, j, i =  0.9500000000000001 7 7
+9.920055760763498e-10
+calculating for alpha, j, i =  0.9600000000000001 0 0
+1.041445452722667e-09
+calculating for alpha, j, i =  0.9600000000000001 1 0
+1.0601764331148013e-09
+calculating for alpha, j, i =  0.9600000000000001 2 0
+1.9081125062418007e-10
+calculating for alpha, j, i =  0.9600000000000001 3 0
+5.663825246530607e-12
+calculating for alpha, j, i =  0.9600000000000001 4 0
+2.567359631254061e-14
+calculating for alpha, j, i =  0.9600000000000001 5 0
+1.6901172092264385e-17
+calculating for alpha, j, i =  0.9600000000000001 6 0
+1.5767883026439568e-21
+calculating for alpha, j, i =  0.9600000000000001 7 0
+2.0569199404464717e-26
+calculating for alpha, j, i =  0.9600000000000001 0 1
+3.000206494181182e-06
+calculating for alpha, j, i =  0.9600000000000001 1 1
+1.923788494774711e-05
+calculating for alpha, j, i =  0.9600000000000001 2 1
+2.1240638139158967e-05
+calculating for alpha, j, i =  0.9600000000000001 3 1
+4.091072741324302e-06
+calculating for alpha, j, i =  0.9600000000000001 4 1
+1.2837375953959044e-07
+calculating for alpha, j, i =  0.9600000000000001 5 1
+6.065137674006703e-10
+calculating for alpha, j, i =  0.9600000000000001 6 1
+4.1178844125808813e-13
+calculating for alpha, j, i =  0.9600000000000001 7 1
+3.91983905892531e-17
+calculating for alpha, j, i =  0.9600000000000001 0 2
+1.924469318228305e-05
+calculating for alpha, j, i =  0.9600000000000001 1 2
+0.0007291161242633621
+calculating for alpha, j, i =  0.9600000000000001 2 2
+0.005099780539209482
+calculating for alpha, j, i =  0.9600000000000001 3 2
+0.006276493579745711
+calculating for alpha, j, i =  0.9600000000000001 4 2
+0.001340991184015141
+calculating for alpha, j, i =  0.9600000000000001 5 2
+4.6073281881584146e-05
+calculating for alpha, j, i =  0.9600000000000001 6 2
+2.3526492412949622e-07
+calculating for alpha, j, i =  0.9600000000000001 7 2
+1.6982174286664237e-10
+calculating for alpha, j, i =  0.9600000000000001 0 3
+1.9788003012204382e-05
+calculating for alpha, j, i =  0.9600000000000001 1 3
+0.0006890000939029733
+calculating for alpha, j, i =  0.9600000000000001 2 3
+0.007287739994499597
+calculating for alpha, j, i =  0.9600000000000001 3 3
+0.026570604013091133
+calculating for alpha, j, i =  0.9600000000000001 4 3
+0.02783497287946012
+calculating for alpha, j, i =  0.9600000000000001 5 3
+0.006267533472929688
+calculating for alpha, j, i =  0.9600000000000001 6 3
+0.00024155525719805416
+calculating for alpha, j, i =  0.9600000000000001 7 3
+1.3863986882044853e-06
+calculating for alpha, j, i =  0.9600000000000001 0 4
+1.4006037078486683e-06
+calculating for alpha, j, i =  0.9600000000000001 1 4
+0.000243132933761366
+calculating for alpha, j, i =  0.9600000000000001 2 4
+0.006279962982009102
+calculating for alpha, j, i =  0.9600000000000001 3 4
+0.02776930192145924
+calculating for alpha, j, i =  0.9600000000000001 4 4
+0.02648173295053605
+calculating for alpha, j, i =  0.9600000000000001 5 4
+0.0072679207886813015
+calculating for alpha, j, i =  0.9600000000000001 6 4
+0.0006892616715509159
+calculating for alpha, j, i =  0.9600000000000001 7 4
+1.9858231688058335e-05
+calculating for alpha, j, i =  0.9600000000000001 0 5
+1.7254179180109096e-10
+calculating for alpha, j, i =  0.9600000000000001 1 5
+2.3830490524089698e-07
+calculating for alpha, j, i =  0.9600000000000001 2 5
+4.6508479395674744e-05
+calculating for alpha, j, i =  0.9600000000000001 3 5
+0.0013477165447005398
+calculating for alpha, j, i =  0.9600000000000001 4 5
+0.006308378679729496
+calculating for alpha, j, i =  0.9600000000000001 5 5
+0.005083593222677641
+calculating for alpha, j, i =  0.9600000000000001 6 5
+0.0007235904262895818
+calculating for alpha, j, i =  0.9600000000000001 7 5
+1.905454446852311e-05
+calculating for alpha, j, i =  0.9600000000000001 0 6
+4.0058719733582987e-17
+calculating for alpha, j, i =  0.9600000000000001 1 6
+4.1964323530898876e-13
+calculating for alpha, j, i =  0.9600000000000001 2 6
+6.161534134977314e-10
+calculating for alpha, j, i =  0.9600000000000001 3 6
+1.2990245226053303e-07
+calculating for alpha, j, i =  0.9600000000000001 4 6
+4.155679363771381e-06
+calculating for alpha, j, i =  0.9600000000000001 5 6
+2.133140744760722e-05
+calculating for alpha, j, i =  0.9600000000000001 6 6
+1.9237284011561555e-05
+calculating for alpha, j, i =  0.9600000000000001 7 6
+2.9863157491771815e-06
+calculating for alpha, j, i =  0.9600000000000001 0 7
+2.1144723311237016e-26
+calculating for alpha, j, i =  0.9600000000000001 1 7
+1.6166325019471014e-21
+calculating for alpha, j, i =  0.9600000000000001 2 7
+1.7278375038847077e-17
+calculating for alpha, j, i =  0.9600000000000001 3 7
+2.615558163476044e-14
+calculating for alpha, j, i =  0.9600000000000001 4 7
+5.813641943595861e-12
+calculating for alpha, j, i =  0.9600000000000001 5 7
+1.9299991810763419e-10
+calculating for alpha, j, i =  0.9600000000000001 6 7
+1.0681295257539428e-09
+calculating for alpha, j, i =  0.9600000000000001 7 7
+1.0451183867760152e-09
+calculating for alpha, j, i =  0.9700000000000001 0 0
+1.1049198827204498e-09
+calculating for alpha, j, i =  0.9700000000000001 1 0
+1.1297729963293652e-09
+calculating for alpha, j, i =  0.9700000000000001 2 0
+2.0410422007391094e-10
+calculating for alpha, j, i =  0.9700000000000001 3 0
+6.077336949128266e-12
+calculating for alpha, j, i =  0.9700000000000001 4 0
+2.7614590621380414e-14
+calculating for alpha, j, i =  0.9700000000000001 5 0
+1.8210143903997025e-17
+calculating for alpha, j, i =  0.9700000000000001 6 0
+1.7008669637955414e-21
+calculating for alpha, j, i =  0.9700000000000001 7 0
+2.2203833846172036e-26
+calculating for alpha, j, i =  0.9700000000000001 0 1
+3.1245272975403263e-06
+calculating for alpha, j, i =  0.9700000000000001 1 1
+2.014903897254383e-05
+calculating for alpha, j, i =  0.9700000000000001 2 1
+2.237219265356776e-05
+calculating for alpha, j, i =  0.9700000000000001 3 1
+4.332481599707234e-06
+calculating for alpha, j, i =  0.9700000000000001 4 1
+1.3663187805549274e-07
+calculating for alpha, j, i =  0.9700000000000001 5 1
+6.482798968487326e-10
+calculating for alpha, j, i =  0.9700000000000001 6 1
+4.416377715613514e-13
+calculating for alpha, j, i =  0.9700000000000001 7 1
+4.2146400427326137e-17
+calculating for alpha, j, i =  0.9700000000000001 0 2
+1.9826970215384635e-05
+calculating for alpha, j, i =  0.9700000000000001 1 2
+0.0007526939097085242
+calculating for alpha, j, i =  0.9700000000000001 2 2
+0.0052795220247308225
+calculating for alpha, j, i =  0.9700000000000001 3 2
+0.006524895401220802
+calculating for alpha, j, i =  0.9700000000000001 4 2
+0.0014015363797061238
+calculating for alpha, j, i =  0.9700000000000001 5 2
+4.844457618914679e-05
+calculating for alpha, j, i =  0.9700000000000001 6 2
+2.488673560946328e-07
+calculating for alpha, j, i =  0.9700000000000001 7 2
+1.8061405547424597e-10
+calculating for alpha, j, i =  0.9700000000000001 0 3
+2.0404376355753006e-05
+calculating for alpha, j, i =  0.9700000000000001 1 3
+0.0007088324634548798
+calculating for alpha, j, i =  0.9700000000000001 2 3
+0.007488307847853728
+calculating for alpha, j, i =  0.9700000000000001 3 3
+0.027357297470345984
+calculating for alpha, j, i =  0.9700000000000001 4 3
+0.028714615550190715
+calculating for alpha, j, i =  0.9700000000000001 5 3
+0.006479863519256378
+calculating for alpha, j, i =  0.9700000000000001 6 3
+0.0002507166564720389
+calculating for alpha, j, i =  0.9700000000000001 7 3
+1.4471049730435286e-06
+calculating for alpha, j, i =  0.9700000000000001 0 4
+1.4622317007534203e-06
+calculating for alpha, j, i =  0.9700000000000001 1 4
+0.00025238574542722336
+calculating for alpha, j, i =  0.9700000000000001 2 4
+0.006492941881370438
+calculating for alpha, j, i =  0.9700000000000001 3 4
+0.028645733433284113
+calculating for alpha, j, i =  0.9700000000000001 4 4
+0.027263436122759197
+calculating for alpha, j, i =  0.9700000000000001 5 4
+0.007467056484799865
+calculating for alpha, j, i =  0.9700000000000001 6 4
+0.0007090125560836192
+calculating for alpha, j, i =  0.9700000000000001 7 4
+2.0474150390128262e-05
+calculating for alpha, j, i =  0.9700000000000001 0 5
+1.8352634457348736e-10
+calculating for alpha, j, i =  0.9700000000000001 1 5
+2.520931030809678e-07
+calculating for alpha, j, i =  0.9700000000000001 2 5
+4.890051140087838e-05
+calculating for alpha, j, i =  0.9700000000000001 3 5
+0.0014083949198188475
+calculating for alpha, j, i =  0.9700000000000001 4 5
+0.006557342655723609
+calculating for alpha, j, i =  0.9700000000000001 5 5
+0.005261461132140512
+calculating for alpha, j, i =  0.9700000000000001 6 5
+0.0007467578859810369
+calculating for alpha, j, i =  0.9700000000000001 7 5
+1.9623726857396908e-05
+calculating for alpha, j, i =  0.9700000000000001 0 6
+4.3072217337735383e-17
+calculating for alpha, j, i =  0.9700000000000001 1 6
+4.500432452300277e-13
+calculating for alpha, j, i =  0.9700000000000001 2 6
+6.585103788671477e-10
+calculating for alpha, j, i =  0.9700000000000001 3 6
+1.382312315870403e-07
+calculating for alpha, j, i =  0.9700000000000001 4 6
+4.400382190577987e-06
+calculating for alpha, j, i =  0.9700000000000001 5 6
+2.245955379481721e-05
+calculating for alpha, j, i =  0.9700000000000001 6 6
+2.0139369358865472e-05
+calculating for alpha, j, i =  0.9700000000000001 7 6
+3.1084477617282015e-06
+calculating for alpha, j, i =  0.9700000000000001 0 7
+2.2823833743604482e-26
+calculating for alpha, j, i =  0.9700000000000001 1 7
+1.7436579749522246e-21
+calculating for alpha, j, i =  0.9700000000000001 2 7
+1.86134334366275e-17
+calculating for alpha, j, i =  0.9700000000000001 3 7
+2.812618031538786e-14
+calculating for alpha, j, i =  0.9700000000000001 4 7
+6.237482825353167e-12
+calculating for alpha, j, i =  0.9700000000000001 5 7
+2.0636051608905332e-10
+calculating for alpha, j, i =  0.9700000000000001 6 7
+1.1376720570978636e-09
+calculating for alpha, j, i =  0.9700000000000001 7 7
+1.1081497166643954e-09
+calculating for alpha, j, i =  0.9800000000000001 0 0
+1.1848956830572849e-09
+calculating for alpha, j, i =  0.9800000000000001 1 0
+1.219379497664214e-09
+calculating for alpha, j, i =  0.9800000000000001 2 0
+2.215223632599938e-10
+calculating for alpha, j, i =  0.9800000000000001 3 0
+6.626857212454381e-12
+calculating for alpha, j, i =  0.9800000000000001 4 0
+3.0221739398539887e-14
+calculating for alpha, j, i =  0.9800000000000001 5 0
+1.9981858643574246e-17
+calculating for alpha, j, i =  0.9800000000000001 6 0
+1.8696866525530816e-21
+calculating for alpha, j, i =  0.9800000000000001 7 0
+2.4435396074005062e-26
+calculating for alpha, j, i =  0.9800000000000001 0 1
+3.2654938488592934e-06
+calculating for alpha, j, i =  0.9800000000000001 1 1
+2.1219272975990914e-05
+calculating for alpha, j, i =  0.9800000000000001 2 1
+2.374512452482038e-05
+calculating for alpha, j, i =  0.9800000000000001 3 1
+4.633992978822898e-06
+calculating for alpha, j, i =  0.9800000000000001 4 1
+1.4720682731280269e-07
+calculating for alpha, j, i =  0.9800000000000001 5 1
+7.028535281144389e-10
+calculating for alpha, j, i =  0.9800000000000001 6 1
+4.812479821351883e-13
+calculating for alpha, j, i =  0.9800000000000001 7 1
+4.6102978182882897e-17
+calculating for alpha, j, i =  0.9800000000000001 0 2
+2.0441617300925105e-05
+calculating for alpha, j, i =  0.9800000000000001 1 2
+0.0007779425181435088
+calculating for alpha, j, i =  0.9800000000000001 2 2
+0.005475651756771808
+calculating for alpha, j, i =  0.9800000000000001 3 2
+0.006803532476011953
+calculating for alpha, j, i =  0.9800000000000001 4 2
+0.0014717894113510865
+calculating for alpha, j, i =  0.9800000000000001 5 2
+5.1296172352755614e-05
+calculating for alpha, j, i =  0.9800000000000001 6 2
+2.6577156179740113e-07
+calculating for alpha, j, i =  0.9800000000000001 7 2
+1.9439783524975234e-10
+calculating for alpha, j, i =  0.9800000000000001 0 3
+2.105937268099724e-05
+calculating for alpha, j, i =  0.9800000000000001 1 3
+0.0007295524608179586
+calculating for alpha, j, i =  0.9800000000000001 2 3
+0.007695923464978931
+calculating for alpha, j, i =  0.9800000000000001 3 3
+0.02818407373445592
+calculating for alpha, j, i =  0.9800000000000001 4 3
+0.029652414556301073
+calculating for alpha, j, i =  0.9800000000000001 5 3
+0.006709736152858431
+calculating for alpha, j, i =  0.9800000000000001 6 3
+0.00026089628414521055
+calculating for alpha, j, i =  0.9800000000000001 7 3
+1.5170502826795778e-06
+calculating for alpha, j, i =  0.9800000000000001 0 4
+1.5332665674214916e-06
+calculating for alpha, j, i =  0.9800000000000001 1 4
+0.0002626689190494058
+calculating for alpha, j, i =  0.9800000000000001 2 4
+0.0067234989376093995
+calculating for alpha, j, i =  0.9800000000000001 3 4
+0.029579929299911153
+calculating for alpha, j, i =  0.9800000000000001 4 4
+0.02808471017658806
+calculating for alpha, j, i =  0.9800000000000001 5 4
+0.007673124680634418
+calculating for alpha, j, i =  0.9800000000000001 6 4
+0.0007296413579738606
+calculating for alpha, j, i =  0.9800000000000001 7 4
+2.1128428089151172e-05
+calculating for alpha, j, i =  0.9800000000000001 0 5
+1.9755709404964772e-10
+calculating for alpha, j, i =  0.9800000000000001 1 5
+2.692278618948954e-07
+calculating for alpha, j, i =  0.9800000000000001 2 5
+5.177651306362446e-05
+calculating for alpha, j, i =  0.9800000000000001 3 5
+0.0014787738156917137
+calculating for alpha, j, i =  0.9800000000000001 4 5
+0.006836498724578062
+calculating for alpha, j, i =  0.9800000000000001 5 5
+0.005455399544324635
+calculating for alpha, j, i =  0.9800000000000001 6 5
+0.0007715451843727417
+calculating for alpha, j, i =  0.9800000000000001 7 5
+2.0223929091950875e-05
+calculating for alpha, j, i =  0.9800000000000001 0 6
+4.7116638140795045e-17
+calculating for alpha, j, i =  0.9800000000000001 1 6
+4.903801201156834e-13
+calculating for alpha, j, i =  0.9800000000000001 2 6
+7.138435299780943e-10
+calculating for alpha, j, i =  0.9800000000000001 3 6
+1.488922418516806e-07
+calculating for alpha, j, i =  0.9800000000000001 4 6
+4.705911957859287e-06
+calculating for alpha, j, i =  0.9800000000000001 5 6
+2.382714185589452e-05
+calculating for alpha, j, i =  0.9800000000000001 6 6
+2.119770896025625e-05
+calculating for alpha, j, i =  0.9800000000000001 7 6
+3.2467322139427625e-06
+calculating for alpha, j, i =  0.9800000000000001 0 7
+2.5115968706980468e-26
+calculating for alpha, j, i =  0.9800000000000001 1 7
+1.916465376230589e-21
+calculating for alpha, j, i =  0.9800000000000001 2 7
+2.0420083568393377e-17
+calculating for alpha, j, i =  0.9800000000000001 3 7
+3.077223944843684e-14
+calculating for alpha, j, i =  0.9800000000000001 4 7
+6.800632199598313e-12
+calculating for alpha, j, i =  0.9800000000000001 5 7
+2.2385575991418567e-10
+calculating for alpha, j, i =  0.9800000000000001 6 7
+1.2271290689336524e-09
+calculating for alpha, j, i =  0.9800000000000001 7 7
+1.1874738459242417e-09

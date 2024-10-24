@@ -70,4 +70,4 @@ for alpha in np.arange(0.01,1,0.01):
             sum_val = sum_val + np.sum(final_result)
     new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val/((1-alpha)*alpha)]})
     df = pd.concat([df, new_row])
-    df.to_csv('data_modified_ajs.csv')
+    df.to_csv('data_modified_ajs2.csv')
