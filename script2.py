@@ -1,5 +1,5 @@
 import numpy as np
-from functions import inner_int_matrix, convolution, convolution2, convolution_w1_w2, inner_int_division_matrix, inner_int_matrix_ajs, gpu_sum_reduce
+from functions import inner_int_matrix, convolution, convolution2, convolution_w1_w2, inner_int_division_matrix, inner_int_matrix_ajs, gpu_sum_reduce, inner_int_matrix_div
 import math
 import pandas as pd
 from numba import cuda
@@ -60,7 +60,7 @@ for alpha in np.arange(0.01,1,0.01):
             result_matrix = np.zeros((x_val.shape[0],y_val.shape[0],z_val.shape[0]))
             result_matrix = cuda.to_device(result_matrix)
             print('calculating for alpha, j, i = ', alpha, j, i)
-            inner_int_matrix_ajs[blockspergrid, threadsperblock](x_val, y_val, z_val, 0.005, convolution_x_val[0] ,alpha, convolution_array_w1w2, convolution_array_yw1w2, convolution_array_yw1, result_matrix)
+            inner_int_matrix_div[blockspergrid, threadsperblock](x_val, y_val, z_val, 0.005, convolution_x_val[0] ,alpha, convolution_array_w1w2, convolution_array_yw1w2, convolution_array_yw1, result_matrix)
             #np.savetxt("fx_yz.csv", result_matrix[:,500,500], delimiter=",")
             reduce_matrix = result_matrix.reshape(-1)
 
@@ -68,6 +68,7 @@ for alpha in np.arange(0.01,1,0.01):
 
             print(final_result/(1-alpha)*alpha)
             sum_val = sum_val + np.sum(final_result)
-    new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val/((1-alpha)*alpha)]})
+    # new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val/((1-alpha)*alpha)]})
+    new_row = pd.DataFrame({'alpha': [alpha], 'value': [sum_val]})
     df = pd.concat([df, new_row])
-    df.to_csv('data_modified_ajs2.csv')
+    df.to_csv('data_modified_div.csv')
